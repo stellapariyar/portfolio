@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <section id="landing">
+        <div id="particles-js"></div>
+        <div class="landing-content">
+            <h1>Hi, I am Stella.</h1>
+            <h2>I am a Front-End Developer</h2>
+            <a href="#portfolio" class="btn" id="viewPageBtn">View My Page</a>
+        </div>
+    </section>
+    
+    <!-- Navigation -->
+    <div id="portfolio">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li> <!-- Updated Skills link -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m Stella, a Front-End Developer specializing in creating responsive, user-friendly websites. I have a strong foundation in HTML, CSS, JavaScript, and Bootstrap, with a passion for building web solutions that meet modern standards.
+        </p>
+    </section>
+
+    <!-- Skills Section with Bars -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar" data-skill-level="80%">
+                    <div class="skill-level" data-percent="80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar" data-skill-level="70%">
+                    <div class="skill-level" data-percent="70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar" data-skill-level="90%">
+                    <div class="skill-level" data-percent="90%"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+        
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Built a personal portfolio website using HTML, CSS, and Bootstrap. The site is fully responsive across devices, featuring smooth navigation, interactive elements, and a clean, professional layout to showcase skills, projects, and contact information.</p>
+                <a href="#" class="btn-project">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Developed an e-commerce product page with HTML, CSS, and JavaScript. The project includes a dynamic product gallery, filtering options, and an interactive shopping cart for a seamless user experience.</p>
+                <a href="#" class="btn-project">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Created a user-friendly to-do list app using HTML, CSS, and JavaScript. This project allows users to add, edit, and delete tasks, with the functionality to save data in local storage for persistent task management.</p>
+                <a href="#" class="btn-project">View Project</a>
+            </div>
+        </div>
+        <div class="projects-grid more-projects" id="moreProjects" style="display: none;">
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Short description of your project.</p>
+                <a href="#" class="btn-project">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 4</h3>
+                <p>Short description of your project.</p>
+                <a href="#" class="btn-project">View Project</a>
+            </div>
+        </div>
+        <div class="more-projects-btn">
+            <button id="showMoreBtn" class="btn">Show More Projects</button>
+        </div>
+    </section>   
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Stella. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
