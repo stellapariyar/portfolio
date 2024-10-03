@@ -37,7 +37,6 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('img.jpg') no-repeat center center/cover;
     position: relative;
 }
 
